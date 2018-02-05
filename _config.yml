@@ -11,10 +11,10 @@ minimal_mistakes_skin    : "dark" # "air", "aqua", "contrast", "dark", "dirt", "
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Kai's Tech Blog"
+title                    : "A Bit Code"
 title_separator          : "-"
-name                     : "FAN Kai"
-description              : "Coder"
+name                     : "fankai"
+description              : ""
 url                      : "https://fklj.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "fklj/fklj.github.io"
