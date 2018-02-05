@@ -1,17 +1,44 @@
-@import "minimal-mistakes";
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
 
-html {
-    font-size: 12px; // originally 16px
-    @include breakpoint($medium) {
-        font-size: 14px; // originally 18px
-    }
+@charset "utf-8";
 
-    @include breakpoint($large) {
-        font-size: 16px; // originally 20px
-    }
+@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
+@import "minimal-mistakes"; // main partials
 
-    @include breakpoint($x-large) {
-        font-size: 18px; // originally 22px
-    }
-
+.masthead .site-title {
+    font-size: 2em;
 }
+
+#main {
+    .page {
+        font-size: 0.8em; 
+
+        p {
+            color: #dddddd;
+            a {
+                text-decoration: none;
+                color: lightsalmon;
+            }
+        }
+
+        code {
+            color: lightsalmon;
+            background: none;
+        }
+
+        .toc__menu a {
+            font-size: 0.9em;
+            color: #cccccc;
+        }
+
+        pre {
+            background-color: rgba(60, 70, 80, 0.9);
+            code {
+                color: #cccccc;
+            }
+        }
+    }
+}
+
