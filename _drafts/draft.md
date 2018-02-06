@@ -15,7 +15,7 @@ title:  "Draft"
 
 下面是一个使用`koa-passport`的可以执行的最小样例
 
-```
+```javascript
 const Koa = require('koa')
 const app = new Koa()
 
@@ -328,7 +328,7 @@ Strategy.prototype.authenticate = function(req, options) {
 看代码其实流程也非常简单，就是自动从请求中获取`username`和`password`两个字段，然后提交给用户自定义的verify函数进行鉴权，然后处理鉴权的结果。
 
 可以看到，这个框架做的事情其实很有限，主要的校验操作还是需要用户自己来定义，一个简单用法样例如下：
-```
+```javascript
 const LocalStrategy = require('passport-local').Strategy
 passport.use(new LocalStrategy(async function (username, password, done) {
   // FK: 根据username从数据库或者其他存储中拿到用户信息
