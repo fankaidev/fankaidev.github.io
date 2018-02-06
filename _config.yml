@@ -11,7 +11,7 @@ minimal_mistakes_skin    : "dark" # "air", "aqua", "contrast", "dark", "dirt", "
 
 # Site Settings
 locale                   : "en-US"
-title                    : "A Bit Of Code"
+title                    : "A Bite Of Code"
 title_separator          : "-"
 name                     : "fankai"
 description              : "fankai's tech blog"
@@ -88,7 +88,7 @@ analytics:
 author:
   name             : "fankai"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "code a bit"
+  bio              : "Learn to code, learn to write."
   location         : "Beijing"
   email            : "fankai@fklj.net"
   uri              :
