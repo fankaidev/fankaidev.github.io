@@ -12,7 +12,7 @@ html {
 }
 
 ::selection {
-    background-color: yellow;
+    background-color: lightgray;
 }
 
 .masthead {
@@ -28,24 +28,28 @@ html {
 }
 
 #main {
+    .author__bio {
+        color: Turquoise;
+    }
+
     .page {
         font-size: 0.8em; 
 
         p {
-            color: #dddddd;
+            color: #cccccc;
             a {
                 text-decoration: none;
-                color: #fc0;
+                color: cyan;
             }
         }
 
         code {
-            color: #fc0;
+            color: Turquoise;
             background: none;
         }
 
         .toc a {
-            font-size: 0.9em;
+            font-size: 0.8em;
             color: #cccccc;
             background-color: #444444;
         }
