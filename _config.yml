@@ -15,9 +15,9 @@ title                    : "A Bite Of Code"
 title_separator          : "-"
 name                     : "fankai"
 description              : "fankai's tech blog"
-url                      : "https://fklj.github.io"
+url                      : "https://fankaidev.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : "fklj/fklj.github.io"
+repository               : "fankaidev/fankaidev.github.io"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
@@ -90,7 +90,7 @@ author:
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "Learn to code, learn to write."
   location         : "Beijing"
-  email            : "fankai@fklj.net"
+  email            : "fankaidev@gmail.com"
   uri              :
   home             : # null (default), "absolute or relative url to link to author home"
   bitbucket        :
@@ -99,7 +99,7 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : "fklj"
+  github           : "fankaidev"
   gitlab           :
   google_plus      :
   keybase          :
