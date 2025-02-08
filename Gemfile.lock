@@ -258,6 +258,7 @@ DEPENDENCIES
   ffi (>= 1.15.5)
   github-pages
   jekyll-feed (~> 0.6)
+  jekyll-include-cache
   tzinfo-data
 
 BUNDLED WITH
